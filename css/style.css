@@ -1,0 +1,390 @@
+a:hover {
+	text-decoration:none;
+}
+.wrapper {
+	max-width: 1970px;
+}
+.contacts  {
+	background-color:black;
+	height: 40px;
+	font-size: 11px;
+	text-transform: uppercase;
+	color:white;
+}
+.email, .tel {
+	color: #686c6e;
+	text-decoration: none;
+	line-height:40px;
+}
+
+.navbar {
+	height:100px;
+	margin-bottom:0px;
+	z-index: 1;
+}
+.logo {
+   	width: 149px;
+ 	height: 42px;
+}
+
+.banner {
+	position: relative;
+  
+}
+.wrapper-choose {
+	position: absolute;
+	left: 415px;
+  	top: 175px;
+ 	width: 458px;
+}
+.choose {
+  background-color: rgb(255, 172, 86);
+ 
+ 
+  height: 117px;
+  z-index: 253;
+}
+.blue-box {
+	background-color: #03b6e7;
+	  
+	  
+	height: 408px;
+	z-index: 257; 
+ }
+ .about-us {
+ 	text-align: right;
+ 	padding: 95px auto;
+ }
+ .domine {
+ 	font-family: Domine;
+ }
+ .headline {
+ 	text-transform: uppercase;
+ }
+ .btn {
+ 	color: white;
+ 	background-color: #16d428;
+ 	font-size: 13px;
+ 	text-transform: uppercase;
+ 	height: 44px;
+ 	border-radius: 22px;
+ }
+ .read-more {
+ 	width: 133px;
+ 	
+ }
+ .wrapper-badge {
+ 	position: relative;
+ }
+.badge {
+	width: 237px;
+	height: 280px;
+	box-sizing: border-box;
+	border: 6px solid #ffffff;
+	border-radius: 0;
+	background-color: #03b6e7;
+	position: absolute;
+	left:110px;
+	top: 162px;
+}
+.steps {
+	background-color: #e7eff1;
+}
+.testimomials {
+	background-color: #03b6e7;
+}
+.footer {
+	background-color: #262829;
+
+}
+.footer__text {
+	font-size: 15px;
+	line-height: 24px;
+	color: #838b8c;
+}
+.footer__headline {
+	color: #e1e1e1;
+	font-size: 20px;
+	font-width:bold;
+}
+/* .icon_career {
+  background-image: url("icon_career.png");
+  position: absolute;
+  left: 1231px;
+  top: 4093px;
+  width: 56px;
+  height: 56px;
+  z-index: 36;
+}
+
+.arrow {
+  background-image: url("arrow.png");
+  position: absolute;
+  left: 823px;
+  top: 634px;
+  width: 26px;
+  height: 26px;
+  z-index: 276;
+}
+.arrow {
+  background-image: url("arrow.png");
+  position: absolute;
+  left: 590px;
+  top: 765px;
+  width: 26px;
+  height: 26px;
+  z-index: 275;
+}
+.icon_banking {
+  background-image: url("icon_banking.png");
+  position: absolute;
+  left: 453px;
+  top: 728px;
+  width: 31px;
+  height: 33px;
+  z-index: 274;
+}
+.Banking {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 2.143;
+  position: absolute;
+  left: 453.937px;
+  top: 762.999px;
+  z-index: 273;
+}
+.arrow {
+  background-image: url("arrow.png");
+  position: absolute;
+  left: 590px;
+  top: 634px;
+  width: 26px;
+  height: 26px;
+  z-index: 272;
+}
+.border_bottom {
+  background-color: rgb(0, 166, 211);
+  position: absolute;
+  left: 415px;
+  top: 692px;
+  width: 458px;
+  height: 1px;
+  z-index: 271;
+}
+.icon_real_estate {
+  background-image: url("icon_real estate.png");
+  position: absolute;
+  left: 683px;
+  top: 600px;
+  width: 28px;
+  height: 28px;
+  z-index: 270;
+}
+.icon_technology {
+  background-image: url("icon_technology.png");
+  position: absolute;
+  left: 452px;
+  top: 601px;
+  width: 35px;
+  height: 25px;
+  z-index: 269;
+}
+.Real_estate {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 2.143;
+  position: absolute;
+  left: 682.937px;
+  top: 631.999px;
+  z-index: 268;
+}
+.Technology {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 2.143;
+  position: absolute;
+  left: 453.795px;
+  top: 631.999px;
+  z-index: 267;
+}
+.arrow {
+  background-image: url("arrow.png");
+  position: absolute;
+  left: 823px;
+  top: 503px;
+  width: 26px;
+  height: 26px;
+  z-index: 266;
+}
+.arrow {
+  background-image: url("arrow.png");
+  position: absolute;
+  left: 590px;
+  top: 503px;
+  width: 26px;
+  height: 26px;
+  z-index: 265;
+}
+.border_bottom {
+  background-color: rgb(0, 166, 211);
+  position: absolute;
+  left: 643px;
+  top: 561px;
+  width: 230px;
+  height: 1px;
+  z-index: 264;
+}
+.line {
+  background-color: rgb(0, 166, 211);
+  position: absolute;
+  left: 643px;
+  top: 561px;
+  width: 1px;
+  height: 280px;
+  z-index: 263;
+}
+.icon_business {
+  background-image: url("icon_business.png");
+  position: absolute;
+  left: 682px;
+  top: 469px;
+  width: 30px;
+  height: 28px;
+  z-index: 262;
+}
+.icon_education {
+  background-image: url("icon_education.png");
+  position: absolute;
+  left: 455px;
+  top: 468px;
+  width: 30px;
+  height: 30px;
+  z-index: 261;
+}
+.Business {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 2.143;
+  position: absolute;
+  left: 682.937px;
+  top: 500.999px;
+  z-index: 260;
+}
+.Education {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 2.143;
+  position: absolute;
+  left: 453.937px;
+  top: 500.999px;
+  z-index: 259;
+}
+.active_box {
+  background-color: rgb(0, 166, 211);
+  position: absolute;
+  left: 415px;
+  top: 434px;
+  width: 229px;
+  height: 128px;
+  z-index: 258;
+}
+		.What_we_are_About_us {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(137, 142, 143);
+  text-transform: uppercase;
+  line-height: 2.357;
+  text-align: right;
+  position: absolute;
+  left: 889.937px;
+  top: 967.751px;
+  z-index: 231;
+}
+.button {
+  background-color: rgb(22, 212, 40);
+  position: absolute;
+  left: 915px;
+  top: 1143px;
+  width: 133px;
+  height: 44px;
+  z-index: 220;
+}
+.Read_More {
+  font-size: 13px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 2.308;
+  position: absolute;
+  left: 939.938px;
+  top: 1148.998px;
+  z-index: 221;
+}
+.:::Badge_section {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1970px;
+  height: 4800px;
+  z-index: 239;
+}
+._25_year_of_excellence_ {
+  font-size: 75px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 0.267;
+  text-align: center;
+  position: absolute;
+  left: 1257.066px;
+  top: 1285.638px;
+  z-index: 238;
+}
+.badge_icon {
+  background-image: url("badge_icon.png");
+  position: absolute;
+  left: 1273px;
+  top: 1099px;
+  width: 108px;
+  height: 112px;
+  z-index: 237;
+}
+.white_strock {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  background-color: rgb(3, 182, 231);
+  opacity: 0.2;
+  position: absolute;
+  left: 1229px;
+  top: 1121px;
+  width: 193px;
+  height: 235px;
+  z-index: 236;
+}
+.blue_box {
+  border-style: solid;
+  border-width: 6px;
+  border-color: rgb(255, 255, 255);
+  background-color: rgb(3, 182, 231);
+  box-shadow: 0px 9px 16px 0px rgba(154, 154, 154, 0.3);
+  position: absolute;
+  left: 1208px;
+  top: 1099px;
+  width: 225px;
+  height: 268px;
+  z-index: 235;
+}
+
+
+ */
+
