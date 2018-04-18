@@ -26,11 +26,19 @@ a:hover {
    	width: 149px;
  	height: 42px;
 }
-
 .banner {
 	position: relative;
   
 }
+.prev, .next {
+  background-color: rgb(38, 40, 41);
+  width: 46px;
+  height: 106px;
+}
+.section {
+	padding: 95px 0;
+}
+
 .wrapper-choose {
 	position: absolute;
 	left: 415px;
@@ -53,7 +61,7 @@ a:hover {
  }
  .about-us {
  	text-align: right;
- 	padding: 95px auto;
+ 	
  }
  .domine {
  	font-family: Domine;
@@ -62,11 +70,12 @@ a:hover {
  	text-transform: uppercase;
  }
  .btn {
+ 	box-sizing: border-box;
  	color: white;
  	background-color: #16d428;
  	font-size: 13px;
  	text-transform: uppercase;
- 	height: 44px;
+ 	height: 38px;
  	border-radius: 22px;
  }
  .read-more {
