@@ -8,7 +8,6 @@ a:hover {
 	background-color:black;
 	height: 40px;
 	font-size: 11px;
-	text-transform: uppercase;
 	color:white;
 }
 .email, .tel {
@@ -16,12 +15,12 @@ a:hover {
 	text-decoration: none;
 	line-height:40px;
 }
-
 .navbar {
 	height:100px;
 	margin-bottom:0px;
 	z-index: 1;
 }
+
 .logo {
    	width: 149px;
  	height: 42px;
@@ -69,8 +68,8 @@ a:hover {
  .headline {
  	text-transform: uppercase;
  }
+
  .btn {
- 	box-sizing: border-box;
  	color: white;
  	background-color: #16d428;
  	font-size: 13px;
@@ -102,19 +101,52 @@ a:hover {
 .testimomials {
 	background-color: #03b6e7;
 }
+.blog {
+	background-color: #e7eff1;
+}
 .footer {
 	background-color: #262829;
 
 }
+
 .footer__text {
+	font-family: "Myriad Pro";
 	font-size: 15px;
 	line-height: 24px;
 	color: #838b8c;
 }
+.footer__form {
+	height: 52px;
+}
+.footer__form > label {
+	border-color:  #323334;
+	border-radius: 26px 0 0 26px;
+	background-color: #323334;
+	color: #5e5e5e;
+	height: 52px;
+	max-width: 415px;
+	padding-left: 20px;
+	padding-right: 150px;
+}
+.footer__form > label >input {
+	font-size: 13px;
+	background-color: #323334;
+	border-radius: 19px;
+	border-color: #323334
+}
+.footer_btn {
+	border-radius: 26px;
+	width: 154px;
+	height: 52px;
+	z-index: 25;
+	left: -26px;
+	position: relative;
+}
+
 .footer__headline {
 	color: #e1e1e1;
 	font-size: 20px;
-	font-width:bold;
+
 }
 /* .icon_career {
   background-image: url("icon_career.png");
