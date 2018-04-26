@@ -7,9 +7,13 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 	<link rel='stylesheet' href='css/style.css' type='text/css' id="main-style"> 
+
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 <body>
 	<div class="wrapper">
@@ -226,7 +230,7 @@
 		<div class="container section projects">
 			<div class="row">
 				<div class="col">
-					<h3 class="headline"><small>featured</small><br>projects</h3>
+					<h3 class="headline text-uppercase"><small>featured</small><br>projects</h3>
 					<div class="row">
 						<div class="col-xs-12 col-md-6" style="height: 464px;">
 							<img src="images/project_banking.png" class="img-responsive hidden-xs">								
@@ -250,8 +254,7 @@
 								</div>									
 							</div>
 						</div>	
-					</div> <!--row with images-->
-					
+					</div> <!--row with images-->	
 				</div>	
 				<div class="w-100"></div>
 				<div class="col-2 mx-auto pt-5 mt-5">
@@ -267,55 +270,89 @@
 						<div class="col-md-12">
 							<h3 class="headline text-uppercase"><small>happy clients</small><br>testimonials</h3>
 						</div>
-						<div class="w-100"></div>	
-						<div class="col-1">
-							<object data="images/icon_quote2.svg" type="image/svg+xml"></object>
-						</div>
-						<div class="col-10">
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially</p>
-						</div>
-						<div class="col-1">
-							<object data="images/icon_quote1.svg" type="image/svg+xml"></object>
-						</div>
-						<div class="w-100"></div>
-						<div class="col-9 carousel" id="testimonials" data-ride="carousel">
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<img src="images/client_1.png" class=" d-inline rounded-circle ">
-									<div>
-									<h3>client name</h3>
-									<p>Designation</p>
+					</div> <!--row-->
+					<div class="row">
+						<div class="col-12 slider d-flex flex-nowrap">
+							<div class="w-25 d-inline-block m-0">
+								<input type="radio" name="point" id="slide1" class="d-none" checked>
+								<div class="d-flex ">
+									<label for="slide1" >
+										<img src="images/client_1.png" class=" rounded-circle">
+									</label>	
+									<div class="ml-4 d-flex flex-column justify-content-center">
+										<h3 class="text-uppercase">client name</h3>
+										<p class="domine">Designation</p>
 									</div>
 								</div>
-									
-							
-								<div class="carousel-item">
-									<img src="images/client_2.png" class="d-inline rounded-circle">
-									<div>
-										<h3>client name</h3>
+								<div class="slider__item d-flex flex-nowrap">
+									<div class="col-1">
+										<object data="images/icon_quote2.svg" type="image/svg+xml"></object>
+									</div>
+									<div class="col-10">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially</p>
+									</div>
+									<div class="col-1">
+										<object data="images/icon_quote1.svg" type="image/svg+xml"></object>
+									</div>
+								</div>
+							</div> <!--slider__item-->
+							<div class="w-25 d-inline-block m-0">
+								<input type="radio" name="point" id="slide2" class="d-none">
+								<div class="d-flex ">
+									<label for="slide2">
+										<img src="images/client_2.png" class=" rounded-circle">
+									</label>	
+									<div class="ml-4 d-flex flex-column justify-content-center">
+										<h3 class="text-uppercase">client name</h3>
 										<p>Designation</p>
 									</div>
 								</div>
-							
-							
-								<div class="carousel-item">
-									<img src="images/client_3.png" class=" d-inline rounded-circle">
-									<div>
-									<h3>client name</h3>
-									<p>Designation</p>
+								<div class="slider__item d-flex flex-nowrap">
+									<div class="col-1">
+										<object data="images/icon_quote2.svg" type="image/svg+xml"></object>
+									</div>
+									<div class="col-10">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially</p>
+									</div>
+									<div class="col-1">
+										<object data="images/icon_quote1.svg" type="image/svg+xml"></object>
 									</div>
 								</div>
+							</div> <!--slider__item-->
+							<div class="w-25 d-inline-block m-0">
+								<input type="radio" name="point" id="slide3" class="d-none">
+								<div class="d-flex ">
+									<label for="slide3" >
+										<img src="images/client_3.png" class=" rounded-circle">
+									</label>	
+									<div class="ml-4 d-flex flex-column justify-content-center">
+										<h3 class="text-uppercase">client name</h3>
+										<p>Designation</p>
+									</div>
+								</div>
+								<div class="slider__item d-flex flex-nowrap">
+									<div class="col-1">
+										<object data="images/icon_quote2.svg" type="image/svg+xml"></object>
+									</div>
+									<div class="col-10">
+										<p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially</p>
+									</div>
+									<div class="col-1">
+										<object data="images/icon_quote1.svg" type="image/svg+xml"></object>
+									</div>
+								</div>
+							</div> <!--slider__item-->
+							<div class="w-25 d-none d-md-block m-0 slider__controls " >
+								<div class="w-100 d-flex justify-content-end controls">
+									<label for="slide1" class="d-inline-block mx-2 controls__item "></label>
+									<label for="slide2" class="d-inline-block mx-2 controls__item"></label>
+									<label for="slide3" class="d-inline-block ml-2 controls__item"></label>
+								</div>
 							</div>
-						</div>													
-						<div class="col-3">
-							<ol class="carousel-indicators">
-							    <li data-target="#testimonials" data-slide-to="0" class="active"></li>
-							    <li data-target="#testimonials" data-slide-to="1"></li>
-							    <li data-target="#testimonials" data-slide-to="2"></li>
-							</ol>
-						</div>
-					</div> <!--row-->
-				</div>
+						</div>		<!--slider -->		
+						
+					</div><!--row-->	
+				</div> <!--container-->
 			</div>	<!--row-->
 		</div>
 		<!--section our blog-->
@@ -359,7 +396,7 @@
 		<div class="container contact-us section">
 			<div class="row">
 				<div class="col">
-					<h3 class="headline"><small>for consulting</small><br>contact us</h3>
+					<h3 class="headline text-uppercase"><small>for consulting</small><br>contact us</h3>
 				</div>
 				<div class="w-100"></div>
 				<div class="col align-self-center">
@@ -475,6 +512,6 @@
 			</div>
 		</div> <!--footer-->
 	</div>
-	
+
 </body>
 </html>
