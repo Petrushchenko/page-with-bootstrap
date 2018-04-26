@@ -22,6 +22,14 @@
 			font-family: "domine";
 			src: url("../fonts/Domine-Regular.ttf") format("truetype");
 	}
+/*@media screen and (max-width: 576px) {
+  div.contact:nth-child(2) {
+  margin-left: 0;
+  margin-right: 0;
+  }
+}*/
+
+
 a:hover {
 	text-decoration:none;
 }
@@ -126,10 +134,10 @@ a:hover {
 }
  .domine {
  	font-family: Domine;
+  line-height: 28px;
  }
 .about_us .domine {
 	font-size: 15px;
-	line-height: 28px;
 }
  .headline {
  	font-family: Montserrat-Bold;
@@ -267,8 +275,7 @@ a:hover {
 }
 .slider {
   font-size: 15px;
-  color: rgb(221, 248, 255);
-  line-height: 28px;
+  color: #ddf8ff;
 }
 
 .blog {
@@ -292,6 +299,23 @@ a:hover {
 }
 .blog .section div:nth-child(2) > p > span {
 	color: #16d428;
+}
+.contact {
+  height: 130px;
+  border: 1px solid #e1eaec;
+}
+.contact p {
+  font-size: 18px;
+  font-family: "Domine";
+  color: #343a3b;
+}
+div.contact:nth-child(2) {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.contact p span {
+  font-family: Montserrat-Bold;
+  line-height: 33px;
 }
 .footer {
 	background-color: #262829;
