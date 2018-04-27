@@ -302,7 +302,12 @@ a:hover {
 }
 .contact {
   height: 130px;
-  border: 1px solid #e1eaec;
+  width: 33.3%;
+
+}
+.contact > div {
+  height: 100%;
+   border: 1px solid #e1eaec;
 }
 .contact p {
   font-size: 18px;
@@ -310,9 +315,8 @@ a:hover {
   color: #343a3b;
 }
 div.contact:nth-child(2) {
-  margin-left: 32px;
-  margin-right: 32px;
-}
+  margin: 0 auto;
+} 
 .contact p span {
   font-family: Montserrat-Bold;
   line-height: 33px;
@@ -322,7 +326,6 @@ div.contact:nth-child(2) {
 }
 
 .footer__text {
-	font-family: "Myriad Pro";
 	font-size: 15px;
 	line-height: 24px;
 	color: #838b8c;
@@ -353,13 +356,17 @@ div.contact:nth-child(2) {
 	height: 52px;
 	z-index: 25;
 	left: -26px;
-
 }
 
 .footer__headline {
 	color: #e1e1e1;
 	font-size: 20px;
-
+}
+.footer a {
+  color: #6a7172;
+  font-size: 13px;
+  font-family:  "MontserratRegular";
+  line-height: 30px;
 }
 /* .icon_career {
   background-image: url("icon_career.png");
