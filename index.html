@@ -233,18 +233,17 @@
 					<h3 class="headline text-uppercase"><small>featured</small><br>projects</h3>
 					<div class="row">
 						<div class="col-xs-12 col-md-6" style="height: 464px;">
-							<img src="images/project_banking.png" class="img-responsive hidden-xs">								
+							<img src="images/project_banking.png" class="img-responsive">								
 						</div>
 						<div class="col-xs-12  col-md-6 ">
 							<div class="row" style="height: 222px;">
 								<div class="col-md-6">
-									<a href="#">												
-										<img src="images/project_2.png" class="img-responsive hidden-xs">
+									<a href="#">											<img src="images/project_2.png" class="img-responsive">
 									</a>
 								</div>
 								<div class="col-md-6">
 									<a href="#">
-										<img src="images/project_technology.png" class="img-responsive hidden-xs">
+										<img src="images/project_technology.png" class="img-responsive">
 									</a>
 								</div>
 							</div>
@@ -258,7 +257,7 @@
 				</div>	
 				<div class="w-100"></div>
 				<div class="col-2 mx-auto pt-5 mt-5">
-						<a href="#" role="button" class="btn full-projects">full projects</a>	
+						<a href="#" role="button" class="btn projects__btn text-uppercase">full projects</a>	
 					</div>	
 			</div><!--row-->
 		</div><!--section projects-->	
@@ -275,7 +274,7 @@
 						<div class="col-12 slider d-flex flex-nowrap">
 							<div class="w-25 d-inline-block m-0">
 								<input type="radio" name="point" id="slide1" class="d-none" checked>
-								<div class="d-flex ">
+								<div class="d-flex flex-column align-items-center flex-lg-row">
 									<label for="slide1" >
 										<img src="images/client_1.png" class=" rounded-circle">
 									</label>	
@@ -285,20 +284,20 @@
 									</div>
 								</div>
 								<div class="slider__item d-flex flex-nowrap">
-									<div class="col-1">
+									<div class="col-1 d-none d-lg-block">
 										<object data="images/icon_quote2.svg" type="image/svg+xml"></object>
 									</div>
 									<div class="col-10">
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially</p>
 									</div>
-									<div class="col-1">
+									<div class="col-1 d-none d-lg-block">
 										<object data="images/icon_quote1.svg" type="image/svg+xml"></object>
 									</div>
 								</div>
 							</div> <!--slider__item-->
 							<div class="w-25 d-inline-block m-0">
 								<input type="radio" name="point" id="slide2" class="d-none">
-								<div class="d-flex ">
+								<div class="d-flex flex-column align-items-center flex-lg-row">
 									<label for="slide2">
 										<img src="images/client_2.png" class=" rounded-circle">
 									</label>	
@@ -308,20 +307,20 @@
 									</div>
 								</div>
 								<div class="slider__item d-flex flex-nowrap">
-									<div class="col-1">
+									<div class="col-1 d-none d-lg-block">
 										<object data="images/icon_quote2.svg" type="image/svg+xml"></object>
 									</div>
-									<div class="col-10">
+									<div class="col-12 col-lg-10">
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially</p>
 									</div>
-									<div class="col-1">
+									<div class="col-1 d-none d-lg-block">
 										<object data="images/icon_quote1.svg" type="image/svg+xml"></object>
 									</div>
 								</div>
 							</div> <!--slider__item-->
 							<div class="w-25 d-inline-block m-0">
 								<input type="radio" name="point" id="slide3" class="d-none">
-								<div class="d-flex ">
+								<div class="d-flex flex-column align-items-center flex-lg-row">
 									<label for="slide3" >
 										<img src="images/client_3.png" class=" rounded-circle">
 									</label>	
@@ -331,13 +330,13 @@
 									</div>
 								</div>
 								<div class="slider__item d-flex flex-nowrap">
-									<div class="col-1">
+									<div class="col-1 d-none d-lg-block">
 										<object data="images/icon_quote2.svg" type="image/svg+xml"></object>
 									</div>
 									<div class="col-10">
 										<p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially</p>
 									</div>
-									<div class="col-1">
+									<div class="col-1 d-none d-lg-block">
 										<object data="images/icon_quote1.svg" type="image/svg+xml"></object>
 									</div>
 								</div>
@@ -356,37 +355,39 @@
 			</div>	<!--row-->
 		</div>
 		<!--section our blog-->
-		<div class="container-fluid blog" >
+		<div class="blog container-fluid pb-0" >
 			<div class="row" >
-				<div class="container ">
-					<div class="row" >
+				<div class="container">
+					<div class="row " >
 						<div class="col-12 col-lg-6 pr-5 section"> 
-							<div class="d-flex flex-row">
-								<h3 class="headline text-uppercase mr-auto mb-5">
+							<div class="d-flex flex-column align-items-start flex-sm-row justify-content-sm-between align-items-sm-center flex-lg-column align-items-lg-start flex-xl-row justify-content-xl-between align-items-xl-center">
+								<h3 class="headline text-uppercase">
 									<small>news</small><br>
-									<span class="font-weight-bold">our blog</span>
+									<span>our blog</span>
 								</h3>
-								<a href="#" class="text-uppercase text-center">top posts</a>
-								<a href="#" class="text-uppercase text-center">check all post</a>
+								<div>
+									<a href="#" class="d-inline-block text-uppercase text-center my-2">top posts</a>
+									<a href="#" class="d-inline-block text-uppercase text-center my-2">check all post</a>
+								</div>
 							</div>
 							<div>
-								<p class="domine">February <span>20, 2016</span></p>
-								<h3 class="text-uppercase">blog heading here business</h3>
-								<p class="domine text-muted text-truncate">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								<p class="domine mt-4">February <span>20, 2016</span></p>
+								<h3 class="text-uppercase blog__heading">blog heading here business</h3>
+								<p class="domine text-muted d-block blog__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 							</div>
 							<div>
-								<p class="domine">February <span>22, 2016</span></p>
-								<h3 class="text-uppercase">many variation of passages of ipsum</h3>
-								<p class="domine text-muted text-truncate">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								<p class="domine mt-4">February <span>22, 2016</span></p>
+								<h3 class="text-uppercase blog__heading">many variation of passages of ipsum</h3>
+								<p class="domine text-muted blog__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 							</div>
 							<div>
-								<p class="domine">February <span>22, 2016</span></p>
-								<h3 class="text-uppercase">internet tend to repeat predefined</h3>
-								<p class="domine text-muted text-truncate">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								<p class="domine mt-4">February <span>22, 2016</span></p>
+								<h3 class="text-uppercase blog__heading">internet tend to repeat predefined</h3>
+								<p class="domine text-muted blog__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 							</div>
 						</div>
-						<div class="col-12 col-lg-6" >
-							<img src="images/blog.png" class="hidden-xs">
+						<div class="col-12 col-lg-6" class="position-relative">
+							<img src="images/blog.png" class="d-none d-lg-block position-absolute h-100" > 
 						</div>
 					</div>		
 				</div> <!--container--> 
