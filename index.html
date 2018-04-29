@@ -6,7 +6,8 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-	<link rel='stylesheet' href='css/style.css' type='text/css' id="main-style"> 
+	<link rel='stylesheet' href='css/style.css' type='text/css'> 
+	<link rel="stylesheet" href='css/media.css'  type='text/css'>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	
@@ -192,31 +193,24 @@
 					<div class="container">
 						<div class="row">
 							<div class="col">
-								<h3 class="headline"><small>our</small><br>steps</h3>
+								<h3 class="headline text-uppercase"><small>our</small><br>steps</h3>
 								<div class="row">
-									<div class="col">
-										<img src="images/icon_choose_industry.png" class="hidden-xs">
-									</div>
-									<div class="col">
-										<img src="images/icon_choose_service.png" class="hidden-xs">
-									</div>
-									<div class="col">
-										<img src="images/icon_boost_business.png" class="hidden-xs">
-									</div>
-									<div class="w-100"></div>
-									<div class="col">
+									<div class="col-12 col-md d-flex flex-column align-items-start">
+										<img src="images/icon_choose_industry.png" class="mb-auto">
 										<p>01</p>
-										<h4 class="headline">choose your industry</h4>
+										<h4 class="steps__headline text-uppercase">choose your industry</h4>
 										<p class="domine">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
 									</div>
-									<div class="col">
+									<div class="col-12 col-md d-flex flex-column align-items-start">						
+										<img src="images/icon_choose_service.png" class="mb-auto">
 										<p>02</p>
-										<h4 class="headline">choose your service</h4>
+										<h4 class="steps__headline text-uppercase">choose your service</h4>
 										<p class="domine">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
 									</div>
-									<div class="col">
+									<div class="col-12 col-md d-flex flex-column align-items-start">
+										<img src="images/icon_boost_business.png" class="mb-auto">
 										<p>03</p>
-										<h4 class="headline">boost your business</h4>
+										<h4 class="steps__headline text-uppercase">boost your business</h4>
 										<p class="domine">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
 									</div>
 								</div> <!--row-->
@@ -229,37 +223,75 @@
 		<!--section projects-->		
 		<div class="container section projects">
 			<div class="row">
-				<div class="col">
+				<div class="col-12">
 					<h3 class="headline text-uppercase"><small>featured</small><br>projects</h3>
-					<div class="row">
-						<div class="col-xs-12 col-md-6" style="height: 464px;">
-							<img src="images/project_banking.png" class="img-responsive">								
-						</div>
-						<div class="col-xs-12  col-md-6 ">
-							<div class="row" style="height: 222px;">
-								<div class="col-md-6">
-									<a href="#">											<img src="images/project_2.png" class="img-responsive">
-									</a>
-								</div>
-								<div class="col-md-6">
-									<a href="#">
-										<img src="images/project_technology.png" class="img-responsive">
-									</a>
-								</div>
-							</div>
-							<div class="row" style="height: 222px;">
-								<div class="col-md-12 projects_estate">
-									<img src="images/project_real_estate.png" class="img-responsive hidden-xs"> 
-								</div>									
-							</div>
-						</div>	
-					</div> <!--row with images-->	
 				</div>	
-				<div class="w-100"></div>
-				<div class="col-2 mx-auto pt-5 mt-5">
-						<a href="#" role="button" class="btn projects__btn text-uppercase">full projects</a>	
-					</div>	
 			</div><!--row-->
+			<div class="row"> 
+				<div class="col-12 col-lg-6 mb-3 mb-lg-0" >
+					<div class="d-flex justify-content-center" >
+						<div class="position-relative">
+							<a href="#" class="d-block w-100 h-100 ">
+								<img src="images/project_banking.png" class="h-100 img-fluid projects__img">	
+							</a>	
+							<div class="projects__marker position-absolute "></div>	
+							<div class="position-absolute"></div>
+							<div class="projects__active w-100 h-100 position-absolute">
+								<p></p>
+							</div>
+						</div>		
+					</div>	
+				</div>	
+				<div class="col-12 col-lg-6">
+					<div class=" row mb-3 projects__img_row1">
+						<div class="col-6 ">
+							<div class="position-relative">
+								<a href="#" class="">						
+									<img src="images/project_2.png" class="img-fluid projects__img">
+								</a>	
+								<div class="projects__marker position-absolute "></div>
+								<div class="position-absolute"></div>
+								<div class="projects__active position-absolute">
+									<p></p>
+								</div>
+							</div>							
+						</div>
+						<div class="col-6 text-right">
+							<div class="position-relative">
+								<a href="#" class="">
+									<img src="images/project_technology.png" class="img-fluid projects__img" >
+								</a>
+								<div class="projects__marker position-absolute "></div>
+								<div class="position-absolute"></div>
+								<div class="projects__active w-100 h-100 position-absolute">
+									<p></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row projects__img_row2 position-relative">
+						<div class="col-12 text-center ">
+							<div class="col-auto  p-0">
+								<a href="#" class=" ">
+									<img src="images/project_real_estate.png" class="img-fluid projects__img"> 
+								</a>
+								<div class="projects__marker position-absolute "></div>
+								<div class="position-absolute"></div>
+								<div class="projects__active h-100 position-absolute">
+									<p></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+			</div> <!--row-->		
+			<div class="row">
+				<div class="col-2 mx-auto pt-5 mt-5">
+					<a href="#" role="button" class="btn projects__btn text-uppercase">full projects</a>	
+				</div>	
+			</div>
 		</div><!--section projects-->	
 		<!--section testimomials-->	
 		<div class="container-fluid testimonials section">
