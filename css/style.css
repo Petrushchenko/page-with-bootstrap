@@ -18,6 +18,8 @@
 
 a:hover {
 	text-decoration:none;
+  color: #ffffff;
+  font-weight: 900;
 }
 .wrapper {
 	max-width: 1970px;
@@ -37,51 +39,76 @@ a:hover {
 	background-color: white; 
 	z-index: 2;
 	position: relative;
+  font-family: MontserratRegular;
+  font-size: 14px;
+  line-height: 30px;
 }
 .navbar {
 	height:100px;
 	margin-bottom:-90px;
 }
-.navig .active {
-	color: #ffac56 !important;
-	border-color: #ffac56;
+#navbarMenu li.nav-item.active > a {
+	color: #ffac56 ;
 }
 .logo {
    	width: 149px;
  	height: 42px;
 }
 .banner {
-	position: relative;
 	overflow: hidden;
-	height: 702px;
+  position: relative;
+	
+}
+.banner__carousel{
+  height: calc(100vh - 140px);
+  margin-top: 100px;
+}
+.banner__switch {
+  height: 106px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .prev, .next {
   background-color: rgb(38, 40, 41);
   width: 46px;
-  height: 106px;
-  position: relative;
-  top: -15%;
+  height: 100%;
+  
 }
 .section {
 	padding: 95px 0;
 }
+#industry {
+  height: 100vh;
+  top:calc(140px - 100vh);
+  margin-bottom: calc(140px - 100vh);  
+}
 
 .card {
+  max-height: 100vh;
 	border-width: 0;
 	border-radius: 0;
-	position: absolute;
-	left: calc(100vw * 415 / 1970);
-  top: calc(100vw * 175 / 1970);;
- 	width: 458px;
+	
+ 	max-width: 458px;
  	background-color: transparent;
  	color: #ffffff;
  	font-family:MontserratRegular;	
 }
+.card .border-right {
+  border-style: solid;
+  border-width: 0 1px 0 0 !important;
+  border-color: #00a6d3!important;
+}
+.card .border-bottom {
+  border-style: solid;
+  border-width: 0 0 1px 0 !important;
+  border-color: #00a6d3!important;
+}
 .card-header {
-  	background-color: rgb(255, 172, 86);
+  background-color: rgb(255, 172, 86);
  	border-radius: 0;
  	border-width: 0;
-  	height: 117px;
+  height: auto;
 }
 .card h5 {
 	font-size: 14px;
@@ -93,7 +120,7 @@ a:hover {
 }
 .card-body {
 	background-color: #03b6e7;
-	height: 408px;
+	max-height: 408px;
  }
 .card__item {
 	min-height: 130px;
@@ -104,6 +131,7 @@ a:hover {
 	transform: translateY(-50%);
 }
 .btn {
+  margin: auto;
  	color: white;
  	background-color: #16d428;
  	font-size: 13px;
@@ -112,7 +140,7 @@ a:hover {
   letter-spacing: calc(13px * (-10) / 1000);
  }
 .card__item .btn {
- 	width: 148px;
+ 	max-width: 148px;
 	height: 52px;
 	border-radius: 26px;
 }
@@ -223,6 +251,10 @@ a:hover {
   max-height: 464px;
   height: 100%;
   object-position: 0% 100%;
+ visibility: visible;
+}
+.projects__img_1:hover {
+  visibility: hidden;
 }
 .projects__img_row1 {
   max-height: 212px;
@@ -256,6 +288,7 @@ a:hover {
   background-color: #ffffff;
   transform: translate(-5px, 5px);
 }
+
 .projects__active {
   top: 0;
   width: 100%;
@@ -264,9 +297,10 @@ a:hover {
   color: #ffffff;
   opacity: 0;
   transition: opacity 0.3 linear;
-}
+  }
 .projects__active:hover {
    opacity: 0.95;
+   z-index: 5;
 }
 .projects__active > div > p {
   font-size: 18px;
@@ -314,6 +348,8 @@ a:hover {
   padding-top: 140px;
   height: auto;
   margin-bottom: 50px;
+   font-size: 15px;
+  color: #ddf8ff;
 }
 .slider__item {
   position: absolute;
@@ -362,10 +398,7 @@ a:hover {
   border: 3px solid white;
   border-radius: 50%;
 }
-.slider {
-  font-size: 15px;
-  color: #ddf8ff;
-}
+
 .slider div #slide1:checked > div.slider__controls label {
   background-color: #16d428;
 }
@@ -412,6 +445,12 @@ a:hover {
   overflow: hidden;
   font-size: 15px;
   text-overflow: ellipsis;
+}
+.blog__btn {
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+  padding: 0;
 }
 
 .contact {
@@ -489,7 +528,7 @@ div.contact:nth-child(2) {
 @media (max-width: 767px) {
   div#industry.card  {
     position: relative;
-    left: 0;
+    top: 0;
     width: 90%;
     margin: 110px auto 0;
   }

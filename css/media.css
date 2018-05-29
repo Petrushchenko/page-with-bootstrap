@@ -1,0 +1,17 @@
+@media (max-width: 767px) {
+  div#industry{
+    top: 0!important;
+    margin-bottom: 0;
+  }
+  .section {
+  padding: 50px 0;
+  }
+  .card-title {
+  	font-size: 24px;
+	font-weight: 100;
+  }
+  div.card{  	
+  	width: 90%;
+    margin: 105px auto 0;
+  }
+}
