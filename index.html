@@ -10,6 +10,8 @@
 
 	<link rel='stylesheet' href='css/media.css' type='text/css'>
 
+	<script type="text/javascript" src="code.js"></script>
+
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -91,8 +93,9 @@
 			</div>  <!--carousel slide-->
 		</div>
 		 <!--industry-->
-		<div class="container position-relative d-flex align-items-end" id="industry">
-				<div class="col-10 col-md-5 card d-block " >
+		<div class="container position-relative d-flex flex-column justify-content-end" id="industry">
+			<div class="row ">
+				<div class="col-10 col-md-6 col-lg-5 card d-block " >
 					<div  class="card-header pl-4 d-flex align-items-center">
 						<div>
 							<h5 class="card-subtitle text-uppercase">we are leding consulting company</h5>
@@ -104,7 +107,7 @@
 							<div class="border-bottom w-100 px-1 px-sm-4 px-md-2 px-lg-4 my-0 card__item">
 								<div>
 							    	<img src="images/icon_education.png">
-							    	<div class="d-flex flex-md-column flex-lg-row justify-content-between">
+							    	<div class="d-flex flex-lg-row justify-content-between">
 								    	<h5 class="text-uppercase">education</h5>
 								    	<a href="#" class="">
 								    		<object data="images/arrow.svg" type="image/svg+xml"></object>
@@ -115,7 +118,7 @@
 						    <div class=" border-bottom w-100 px-1 px-sm-4 px-md-2 px-lg-4 my-0 card__item ">
 						    	<div>
 							    	<img src="images/icon_technology.png" >
-							    	<div class="d-flex flex-md-column flex-lg-row justify-content-between">
+							    	<div class="d-flex flex-lg-row justify-content-between">
 							    		<h5 class="text-uppercase">technology</h5>
 							    		<a href="#">
 								    		<object data="images/arrow.svg" type="image/svg+xml"></object>
@@ -126,7 +129,7 @@
 						    <div class="w-100 px-1 px-sm-4 px-md-2 px-lg-4 my-0 card__item">
 						    	<div>
 							    	<img src="images/icon_banking.png" >
-							    	<div class="d-flex flex-md-column flex-lg-row justify-content-between">
+							    	<div class="d-flex flex-lg-row justify-content-between">
 								    	<h5 class="text-uppercase">banking</h5>
 								    	<a href="#">
 								    		<object data="images/arrow.svg" type="image/svg+xml"></object>
@@ -139,7 +142,7 @@
 							<div class="border-bottom w-100 px-1 px-sm-4 px-md-2 px-lg-4 card__item">
 								<div>
 							    	<img src="images/icon_business.png">
-							    	<div class="d-flex flex-md-column flex-lg-row justify-content-between">
+							    	<div class="d-flex flex-lg-row justify-content-between">
 							    		<h5 class="text-uppercase">business</h5>
 							    		<a href="#">
 								    		<object data="images/arrow.svg" type="image/svg+xml"></object>
@@ -150,7 +153,7 @@
 						    <div class="border-bottom w-100 px-1 px-sm-4 px-md-2 px-lg-4 card__item">
 						    	<div>
 							    	<img src="images/icon_real_estate.png" >
-							    	<div class="d-flex flex-md-column flex-lg-row justify-content-between">
+							    	<div class="d-flex flex-lg-row justify-content-between">
 								    	<h5 class="text-uppercase">real estate</h5>
 								    	<a href="#">
 								    		<object data="images/arrow.svg" type="image/svg+xml"></object>
@@ -166,6 +169,7 @@
 						</div>
 					</div>
 				</div>
+			</div>
 		</div> <!--container-->
 		<!--section about us-->
 		<div class="container section about_us" id="about">
@@ -309,7 +313,7 @@
 					<div class="row">
 						<div class="col-12 slider d-flex flex-nowrap">
 							<div class="w-25 d-inline-block m-0">
-								<input type="radio" name="point" id="slide1" class="d-none" checked onclick="color()">
+								<input type="radio" name="point" id="slide1" class="d-none" checked >
 								<div class="d-flex flex-column align-items-center flex-lg-row">
 									<label for="slide1" >
 										<img src="images/client_1.png" class=" rounded-circle">
@@ -523,10 +527,12 @@
 		</div> <!--footer-->
 	</div>
 	<script type="text/javascript">
-		function color() {
-			
-		}
+		var contacts = $('.contacts').height();
+		var navig = $('.navig').height();
 		
+
+		console.log(contacts);
+		console.log(navig);
 	</script>
 </body>
 </html>

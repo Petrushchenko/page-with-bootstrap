@@ -80,15 +80,14 @@ a:hover {
 }
 #industry {
   height: 100vh;
-  top:calc(140px - 100vh);
-  margin-bottom: calc(140px - 100vh);  
+  top: -100vh;
+ 
 }
 
 .card {
   max-height: 100vh;
 	border-width: 0;
 	border-radius: 0;
-	
  	max-width: 458px;
  	background-color: transparent;
  	color: #ffffff;
@@ -399,9 +398,6 @@ a:hover {
   border-radius: 50%;
 }
 
-.slider div #slide1:checked > div.slider__controls label {
-  background-color: #16d428;
-}
 .blog {
 	background-color: #e7eff1;
   overflow: hidden;
