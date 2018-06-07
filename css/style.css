@@ -79,9 +79,10 @@ a:hover {
 	padding: 95px 0;
 }
 #industry {
-  height: 100vh;
+  max-height: 100vh;
   top: -100vh;
- 
+  margin-bottom: calc(10% - 100vh);
+  padding-top: calc(140px + 10%);
 }
 
 .card {

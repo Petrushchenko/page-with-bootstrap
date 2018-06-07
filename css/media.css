@@ -2,6 +2,9 @@
   div#industry{
     top: 0!important;
     margin-bottom: 0;
+    padding-top: 0;
+    background-image: url('../images/banner.png');
+    background-position: 45% 10%;
   }
   .section {
   padding: 50px 0;
@@ -11,7 +14,8 @@
 	font-weight: 100;
   }
   div.card{  	
-  	width: 90%;
-    margin: 105px auto 0;
+  	width: 100%;
+    margin: 100px auto 0;
+    opacity: 0.95;
   }
 }
