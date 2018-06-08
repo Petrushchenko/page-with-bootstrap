@@ -1,3 +1,10 @@
+@media (min-width: 768) and (max-width: 991px) {
+  .medal {
+    left: 20px;
+    top:100px;
+  }
+}
+
 @media (max-width: 767px) {
   div#industry{
     top: 0!important;
@@ -19,3 +26,15 @@
     opacity: 0.95;
   }
 }
+
+@media (max-width: 575px) {
+  .footer__form >input {
+    min-width: 100px;
+    padding-right: 10px;
+  }
+  .footer__headline {
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
+
