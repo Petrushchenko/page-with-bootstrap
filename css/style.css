@@ -82,7 +82,7 @@ a:hover,
 #industry {
   max-height: 100vh;
   top: -100vh;
-  margin-bottom: calc(10% - 100vh);
+  margin-bottom: calc(5% - 100vh);
   padding-top: calc(140px + 10%);
 }
 
