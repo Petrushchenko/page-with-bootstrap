@@ -448,6 +448,7 @@ a:hover,
   border-width: 0;
   cursor: pointer;
   padding: 0;
+  margin-bottom: 1rem;
 }
 
 .contact {
