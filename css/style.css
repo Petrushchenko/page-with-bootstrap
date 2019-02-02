@@ -24,6 +24,7 @@ a:hover,
 }
 .wrapper {
 	max-width: 1970px;
+  margin: 0 auto;
 }
 .contacts  {
 	background-color:black;
@@ -58,6 +59,8 @@ a:hover,
 .banner {
 	overflow: hidden;
   position: relative;
+  padding-right: 0;
+  padding-left: 0;
 	
 }
 .banner__carousel{
@@ -489,18 +492,17 @@ div.contact:nth-child(2) {
   border-color:  #323334;
 }
 .footer__form >input {
-  padding-left: 20px;
-  height: 100%;
+    padding-left: 20px;
+    height: 100%;
 	font-size: 13px;
-  padding-right: 100px;
+    padding-right: 100px;
 	background-color: #323334;
 	border-radius: 26px;
 	border-color: #323334;
-  color: #5e5e5e;
-  min-width: 315px;
-  margin-right: -52px;
-  outline: none!important;
-  -webkit-appearance: none;
+    color: #5e5e5e;
+    margin-right: -52px;
+    outline: none!important;
+    -webkit-appearance: none;
 }
 .footer__form >input:focus {
   background-color: #323334;
