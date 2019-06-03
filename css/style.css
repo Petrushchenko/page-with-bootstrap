@@ -18,6 +18,7 @@
 
 a:hover,
 .btn:hover {
+  cursor:pointer;
 	text-decoration:none;
   color: #ffffff;
   font-weight: 900;
@@ -244,28 +245,30 @@ a:hover,
   color: #838b8c;
 }
 .projects__img {
+  bottom: 0;
   object-fit: cover;
   height:auto;
   width: 100%;
-  object-position: 0% 100%;
+  object-position: 50% 50%;
 }
 .projects__img_1 {
   object-fit: cover;
   max-height: 464px;
   height: 100%;
-  object-position: 0% 100%;
+  object-position: 50% 50%;
  visibility: visible;
 }
 .projects__img_1:hover {
   visibility: hidden;
 }
-.projects__img_row1 {
-  max-height: 212px;
+.projects__gallery {
   margin-bottom: 30px;
 }
-.projects__img_row2 {
-  max-height: 222px;
-  margin-bottom: 30px;
+.projects__link-left {
+  margin-right: 15px;
+}
+.projects__link-right {
+  margin-left: 15px;
 }
 .projects__marker {
   box-sizing: border-box;
@@ -300,6 +303,7 @@ a:hover,
   color: #ffffff;
   opacity: 0;
   transition: opacity 0.3 linear;
+  overflow: hidden;
   }
 .projects__active:hover {
    opacity: 0.95;

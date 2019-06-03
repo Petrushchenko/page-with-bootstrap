@@ -28,6 +28,9 @@
 }
 
 @media (max-width: 575px) {
+  .projects__img_1 {
+    max-height: 320px;
+  }
   .footer__form >input {
     min-width: 100px;
     padding-right: 10px;
@@ -37,4 +40,13 @@
     font-size: 18px;
   }
 }
-
+@media (max-width: 385px) {
+.img__text {
+    left: 10px;
+    top: 10px;
+    width: 80px;
+    height: 31px;
+    font-size: 10px;
+    line-height: 29px;
+    letter-spacing: calc(10px * (-50) / 1000);
+}
